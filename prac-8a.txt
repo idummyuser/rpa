@@ -1,0 +1,36 @@
+#prac-8a a. Demonstrate the following events in UiPath:
+• Element triggering event
+• Image triggering event
+• System Triggering Event
+
+i. Element Trigger On click element
+Steps1: Click on user events select on click element
+Step 2: Single click on icon present in the toolbar.
+Step 3: Drag and drop message box inside event handler.
+Step 4: Write any message you want to display.
+Step 5: Run the file.
+Step 6: Click the icon which you selected in user event.
+
+On key press event
+Steps1: Click on user events select on key press element
+Step 2: Indicate on screen and select the key.
+Step 3: Drag and drop message box inside event handler.
+Step 4: Write any message you want to display.
+Step 5: Run the file.
+Step 6: Click the key which you selected in user event.
+
+ii. Image trigger
+Steps1: Click on user events select on click image element
+Step 2: Single click on any image present in the screen.
+Step 3: Drag and drop message box inside event handler.
+Step 4: Write any message you want to display.
+Step 5: Run the file.
+Step 6: Click the image which you selected in user event.
+
+iii. System trigger
+Steps1: Click on user events select on monitor keyboard element
+Step 2: Select any key.
+Step 3: Drag and drop message box inside event handler.
+Step 4: Write any message you want to display.
+Step 5: Run the file.
+Step 6: Click the key which you selected in user event.

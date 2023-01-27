@@ -1,0 +1,76 @@
+#prac-7b 
+
+Find different controls using UiPath. 
+
+1. Anchor Base
+Step 1: Go to http://www.rpachallenge.com/
+Step 2: Go to uipath studio. Drag and drop a Flowchart activity on the Designer panel of a blank project. 
+Step 2: drag and drop "Use application/browser" control from the Activities panel.
+Step 3: give browser url as "https://www.rpachallenge.com/"
+Step 4: Drag and drop "Find element" and "Type into" activity inside "do" of "use application/browser" control.
+Step 5: In Find Element Select the “Role in Company” using Indicate on Screen.
+Step 6: In Type into Select "input box" of “Role in Company” and in text add your "role".
+Step 7: Select Run
+
+2. Element Exists.
+Step 1: Go to UiPath studio.
+Step 2 : Drag and drop sequence activity into the designer panel.
+Step 3: Drag and drop open browser activity into the sequence.
+Step 4: Give URL as https://www.google.co.in/.
+Step 5 : Below that drag and drop the Element Exist activity
+Step 6: Click on indicate on screen and click on the logo of “google”.
+Step 7: In properties, define Output>Exists:Elementfound (By ctrl+k to create variable.
+Step 8 : Drag and drop if activity below the Element exist activity.
+Step 9: In Then section drag and drop the Type into activity.
+Step 10 : Click on indicate on screen, click on the search bar, and type anything you want to search.
+Step 11: Below that drag and drop the click activity, indicate on screen click on “google search button”.
+Step 12: Now in else section drag and drop the message box and type “element doesn’t exist”.
+Step 13: Now run the file.
+
+3.Find Children #### OP not coming ####
+Step 1: Go to https://www.spicejet.com/ in the browser.
+Step 2: Drag and drop the flowchart into the designer panel.
+Step 3: Now drag and drop the Find Children Activity.
+Step 4: At Indicate on screen click on “Departure City”(in homepage of SpiceJet).
+Step 5: In properties> children: Places.(creating variable using ctrl+k)
+Step 6: Drag and drop the For Each Activity.
+Step 7: Double click on it. Type For Each “item” in “Places.”
+Step 8: Now in Properties do the changes. Type argument:UiPath.Core.UiElement(In order to get that click on “Browse on types” and search for it)
+Step 9: Now drag and drop the get attribute to the Body. Now do the changes in the properties. Also create the output as resultdata.(using ctrl +k to create variable)
+Step 10 :Drag and drop the Log message below the get attribute.
+Step 11: Finally Drag and drop the message box activity below foreach activity. Double click on it. Type Places.Count().ToString.
+Step 12: Run the file
+
+4. Find Element
+Step 1: Drag and drop the flowchart to the designer panel.
+Step 2: Now drag and drop the open browser activity.
+Step 3: Give the url as https://www.google.com/?gws_rd=ssl#spf=1611294141178.
+Step 4: Drag and drop the Find Element activity.
+Step 5: In Properties>Output, FoundElement:element(using ctrl+k for creating the variable)
+Step 6: Below Find Element Activity drag and drop the message box activity. Type as “Element exists”. Step 7. Run the file.
+
+6. Indicate on screen
+Step 1.Drag and drop the sequence activity into the designer plane.
+Step 2.Place indicate on screen into the sequence activity.
+
+5. Find Relative Element #### NOT TRIED ####
+Step 1: Drag a Sequence. Create the following variable: editElement (type: UiElement), formatElement (type: UiElement)
+Step 2: Drag an OpenApplication activity inside the Sequence container.
+Step 3: Inside the activity, click the Indicate window on screen option. Then you can select the Notepad window.
+Step 4: Drag a Find Element activity below the OpenApplication activity.
+Step 5: Inside the activity, click the Indicate window on screen option. Then you can select the “Edit” option in the notepad.
+Step 6: In the Properties panel, select the COMPLETE option from the WaitForReady drop-down list.
+- Add the variable EditElement in the FoundElement field.
+Step 7 : Place a Find Relative activity below the Find Element activity.
+Step 8: In the Properties panel, add the value 20 in the OffsetX field. Select the option TopRight from the Position drop-down list. Add the variable Editelement in the Element field. Add the variable Formatelement in the RelativeElement field.
+Step 9: Place a Click activity below the Find Relative activity.
+Step 10: In the Properties panel, add the variable FormatElement in the Element field. Select the None option from the KeyModifiers drop-down list.
+Step 11: Place another Click activity below the first Click activity.Inside the activity, click the Indicate on screen option.Click on “font” (Using f2 button).
+Step 12: Drag an Activate activity below the Click activity. Inside the activity, click the Indicate on screen option. Click on entire font window.
+Step 13: Place a Set Focus activity below the Activate activity. Inside the activity, click the Indicate on screen option, and select the Size menu option from font window of the notepad.
+Step 14: Drag a Send Hotkey activity below the Set Focus activity. In the Key field, type the value down.
+Step 15: In the Properties panel, select the check box for the Activate option. This option brings the UI element to the foreground and activates it before the text is written.
+Step 16: Select the None option from the KeyModifiers drop-down list.
+Step 17: Select the check box for the SpecialKey option. This indicates that you are using a special key in the keyboard shortcut.
+Step 18: Place a Click activity below the Send Hotkey activity. Inside the activity, click the Indicate on screen option. Click on OK button of the font window of notepad.
+Step 19: Run the file.

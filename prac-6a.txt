@@ -1,0 +1,37 @@
+#prac-6a Create an application automating the read, write and append operation on excel file.
+
+i. Read cell:
+Step 1 : Drag and drop a flowchart activity.
+Step 1.5: Drag and Drop "use excel file"
+Step 2: Drag and drop read range activity inside do of "use excel file".  
+Step 3: Specify the path of excel sheet in "use excel file", sheet name as well as the range of cells to read in read range activity .
+Value in excel: prac-6a.xlsx
+Step 4: Create a variable “result” of type “string” to hold the read data.
+Step 5: Create a datatable variable “MyDataTable” of DataTable type.
+Step 6: Set the output of "Read Range" activity to MyDataTable
+Step 7: Drag and drop Output Data table activity
+Step 8: Select the Activity Output Data Table and set its input to “mydatatable” and output to “result”.
+Step 9: Select Message Box activity and configure it to display the “result” variable contents.
+Step 10: Run the file.
+
+ii. Write cell:
+Step 1 : Drag and drop a flowchart activity.
+Step 2: Select activity “Build Data Table” and enter some data into it
+Step 3: Create a data table variable MyDataTable MyDataTable of DataTable type
+Step 4: Set the output of Build Data Table activity to MyDataTable.
+Step 6: Select "Write Range Workbook" Activity.
+Step 7: Specify the excel filename, sheet name and datatable name.
+Step 8: Set the data table value to MyDataTable .
+step 9: add message box  with "finish message"
+Step 9: Run.
+
+iii. Append range:
+Step 1 : Drag and drop a flowchart activity.
+Step 2: Select activity “Build Data Table” and enter some data into it
+Step 3: Create a data table variable MyDataTable MyDataTable of DataTable type
+Step 4: Set the output of Build Data Table activity to MyDataTable
+Step 5: Select Excel Application Scope .Specify the path of the excel sheet
+Step 6: Select "Append Range Workbook" Activity.
+Step 7: Specify the sheet name and range of cells to write
+Step 8: Set the data table value to MyDataTable
+Step 9: Run

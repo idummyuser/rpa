@@ -1,0 +1,18 @@
+#prac-2a Automate UiPath Number Calculation (Addition, Subtraction, Multiplication, Division of numbers).
+
+Step 1: Open UiPath studio select process and give name to your project and click on create.
+Step 2: Click on open main workflow
+Step 3: go to activities and select sequence drag and drop.
+Step 4: Create 4 integer variable. (number1, number2, result, count)
+Step 5: Select 2 input dialogs from the activities drag and drop. Enter the values in dialog box. 
+Dialog title - "Arithmetic operation" | input label - "Enter the first/second number" | value entered - number1/number2
+Step 6 : Select another dialog box for selecting options
+Dialog title - "options" | input label - "pls select any 1 operation : 1. add 2. sub 3. mul 4. div" | value entered - choice
+Step 7: Select switch activity and assign each case, required condition
+Expresion - choice
+add case 1,2,3,4
+step 8: add sequence inside case 
+step 9: add assign inside sequence, and assign "result" variable with valuetosave Decimal.Divide(num1,num2)
+step 10: add message box inside sequence - "addition of " + num1.ToString() + " and " + num2.ToString() + " is " + result
+step 11: repeat step 8, 9, 10 for each case
+step 12: Click on debug file and click on run file:

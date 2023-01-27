@@ -1,0 +1,27 @@
+1a. Create a simple sequence-based project.
+1b. Create a flowchart-based project.
+1c. Create an UiPath Robot which can empty a folder in Gmail solely on basis of recording.
+2a. Automate UiPath Number Calculation (Subtraction, Multiplication, Division of numbers).
+2b. Create an automation UiPath project using different types of variables (number, datetime, Boolean, generic, array, data table)
+3a. Create an automation UiPath Project using decision statements.
+3b. Create an automation UiPath Project using looping statements.
+4a. Automate any process using basic recording.
+4b. Automate any process using desktop recording.
+4c. Automate any process using web recording.
+5a. Consider an array of names. We have to find out how many of them start with the letter "a". Create an automation where the number of names starting with "a" is counted and the result is displayed.
+6a. Create an application automating the read, write and append operation on excel file.
+6b. Automate the process to extract data from an excel file into a data table and vice versa
+7a. Implement the attach window activity.
+7b. Find different controls using UiPath.
+7c. Demonstrate the following activities in UiPath:
+• Mouse (click, double click and hover)
+• Type into
+• Type Secure text
+8a. Demonstrate the following events in UiPath:
+• Element triggering event
+• Image triggering event
+• System Triggering Event
+8b. Automate the following screen scraping methods using UiPath
+• Full Test
+• Native
+• OCR

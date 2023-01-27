@@ -1,0 +1,10 @@
+#prac-5a C. Automate any process using web recording.
+
+Navigating between pages.
+Step 1 : Open UiPath studio give name to your project.
+Step 2: Click on main workflow.
+Step 3: Open any browser and keep.
+Step 4: Click on recorder and select web recorder.
+Step 5: Go to browser type “Guru Nanak college of arts, science & commerce”. Go to the home page and browse to any subpage.
+Step 6: Save and exit the recorder.
+Step 7: Run the file

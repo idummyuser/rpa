@@ -1,0 +1,11 @@
+#prac-4a Automate any process using basic recording.
+
+Emptying Gmail activity using task recording.
+Step 1: Open UiPath studio. select process and give name to your project.
+Step 2: Click on open main workflow.
+Step 3: Open Gmail in chrome.
+Step 4: Click on recording and select basic recording
+Step 5 : Select on record
+Step 6: In Gmail, go to trash and empty the bin
+Step 7 : Click on save and exit
+Step 8 : Run the file

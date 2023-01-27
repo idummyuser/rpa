@@ -1,0 +1,12 @@
+#prac-3b Create an automation UiPath Project using looping statements.
+
+For Each Loop:
+Step 1: Create a blank project and give it a meaningful name.
+Step 2: Drag and drop the Flowchart activity and give it a name.
+Step 3: Drag and drop the Sequence activity and give it a name.
+Step 4: Create a variable named array of int32.
+Step 5: Select the Assign activity and assign the value {1,2,3,4,5} to the variable named array.
+Step 6: Select the For Each activity.
+Step 7: Set values as “For Each item in array”.
+Step 8: Inside the body of For Each select the Write Line activity and enter text “item.toString”.
+Step 9: Run.

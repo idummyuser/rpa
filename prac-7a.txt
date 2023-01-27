@@ -1,0 +1,9 @@
+#prac-7a Implement the attach window activity.
+
+Step 1. Create a blank project and give it a meaningful name.
+Step 2: Drag and drop a Sequence activity on the Designer panel. 
+step 2: add "use application/browser" activity
+step 2: add application path as "C:\Windows\System32\notepad.exe"
+step 2: in do -> drag and drop a Click activity inside the Designer panel.
+Step 4: Double-click on the Click activity and then click on Indicate on screen. Locate the Notepad icon. select click type: Double
+step 5: run

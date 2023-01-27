@@ -1,0 +1,24 @@
+#prac-6b B. Automate the process to extract data from an excel file into a data table and vice versa.
+
+i. Extracting data from excel to another other
+Step 1: Drag and drop a flowchart activity.
+Step 2: Drag and Drop "use excel file"
+Step 3: Drag and drop read range activity inside do of "use excel file".  
+Step 4: Specify the path of excel sheet in "use excel file", sheet name as well as the range of cells to read in read range activity .
+Step 5: Create a data table variable MyDataTable of DataTable type and create a variable of type “string” to hold the read data.
+Step 6: Set the output of "Read Range" activity to MyDataTable
+Step 7: Select the Activity Output Data Table and set its input to “mydatatable” and output to “result”
+Step 8: Select "Write Range Workbook" Activity. Specify the sheet name and range of cells to write.
+Step 9 :Set the data table value to MyDataTable 
+Step 10:Run the file
+
+ii.Extracting data from DataTable to Excel
+
+Step 1: Drag and drop a flowchart activity.
+Step 2: Select activity “Build Data
+Step 3: Create a data table variable MyDataTable MyDataTable of DataTable type
+Step 4: Set the output of Build Data Table activity to MyDataTable
+Step 6: Select Write Range Activity.
+Step 7: Specify the sheet name and range of cells to write 
+Step 8: Set the data table value to MyDataTable 
+Step 9: Run.

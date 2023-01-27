@@ -1,0 +1,12 @@
+#prac-4b Automate any process using desktop recording.
+
+Writing and Calculation operation using desktop recording
+Step 1: Open UiPath studio. select process and give name to your project.
+Step 2: Click on open main workflow. Click on new select flowchart.
+Step 3 : Open recording and click on desktop recording
+Step 4 : Open notepad and calculator
+Step 5: click on recording and start to record.
+Step 6: Type message on the calculator.
+Step 7: Perform a simple calculation in the calculator.
+Step 8: Save and exist the recorder.
+Step 9: Run the file

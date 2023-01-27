@@ -1,0 +1,47 @@
+#prac-7c Demonstrate the following activities in UiPath:
+• Mouse (click, double click and hover)
+• Type into
+• Type Secure text
+
+i. Mouse (click, double click and hover)
+1. Click Activity
+Step 1: Go to UiPath studio
+Step 2: Click on Workflow and Drag Flow Chart from Activities panel.
+Step 3: Double Click on Flowchart.
+Step 4 : Drag and drop the Click activity
+Step 5: Double click on click activity.
+Step 6: Click on indicate on screen and indicate the UI element you want to click on.
+Step 7: Now click on run.
+
+2. Double Click Activity
+Step 1: Go to UiPath studio.
+Step 2: Click on Workflow and Drag Flow Chart from Activities panel.
+Step 3: Double Click on Flowchart.
+Step 4 : Drag and drop the Double Click activity
+Step 5: Double click on double click activity.
+Step 6: Click on indicate on screen and indicate the UI element you want to click on.
+Step 7: Now click on run.
+
+3. Hover Activity
+Step 1: Go to UiPath studio
+Step 2: Click on Workflow and Drag Flow Chart from Activities panel.
+Step 3: Double Click on Flowchart.
+Step 4 : Drag and drop the Hover activity
+Step 5: Double click on hover activity.
+Step 6: Click on indicate on screen and indicate the UI element you want to click on.
+Step 7: Now click on run.
+
+ii Type into
+Step1: Add a new sequence and name it as Type into Activity
+Step2: Search for Type into Activity in the activity panel and drag it inside the sequence.
+Step3: Click on Indicate on Screen and indicate the pointer towards notepad editor.
+Step4: Type the message to be printed on the notepad in the editable text section
+Step5: Hit the Run Button to see the results.
+
+iii Type secure text
+Step1: Add a new flowchart
+Step2: Search for Type secure text Activity in the activity panel and drag it inside the sequence.
+Step3: Click on Indicate on Screen and indicate the pointer towards notepad editor.
+Step4: Create a variable of type “securestring” and assign it to SecureText property in the properties. Step5:Drag and drop an assign activity.
+Step6: Assign the variable created with this value “new system.net.NetworkCredential(String.Empty,"Test@123").SecurePassword”
+Step7: Hit the Run Button to see the results.

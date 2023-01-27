@@ -1,0 +1,27 @@
+#prac-8b Automate the following screen scraping methods using UiPath Full Test
+• Full Test
+• Native
+• OCR
+
+Step1: First we select a new project and give it a name.
+Step2: Take a sequence chart in the designer panel.
+Step3: Open the notepad and put some text.
+Step 4: Select the screen scrapping and select the scrapping method. "get text" inside "use application/browser"
+Step 5: Drag and drop a message box and give the variable name automatically created.
+Step 6: Run the file.
+
+Native
+Step1: First we select a new project and give it a name.
+Step2: Take a sequence chart in the designer panel.
+Step3: Open the notepad and put some text.
+Step 4: Select the screen scrapping and select the scrapping method. "get ocr text"
+Step 5: Drag and drop a message box and give the variable name automatically created.
+Step 6: Run the file.
+
+OCR8
+Step1: First we select a new project and give it a name.
+Step2: Take a sequence chart in the designer panel.
+Step3: Open the notepad and put some text.
+Step 4: Select the screen scrapping and select the scrapping method.
+Step 5: Drag and drop a message box and give the variable name automatically created.
+Step 6: Run the file.

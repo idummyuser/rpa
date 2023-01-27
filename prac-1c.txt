@@ -1,0 +1,10 @@
+#prac-1c. Create an UiPath Robot which can empty a folder in Gmail solely on basis of recording.
+
+
+Step 1: We begin with a blank project in UiPath Studio and then choose Web recorder from the Recording drop-down list
+Step 2: Use the Record function.
+Step 3: Notice Open Browser between Record and Click; this is available with web recorder to record 
+Step 4: Go to gmail.com
+Step 5: Go to trash 
+Step 6: Empty trash steps in browser-based applications.
+Step 7: Click on debug file and select run file.
